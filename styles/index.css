@@ -3,9 +3,6 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;    
 }
-<<<<<<< HEAD
-
-=======
 header {
     background-color: black;
     color: white;
@@ -36,7 +33,6 @@ nav a:hover {
 /*http://img1.picmix.com/output/stamp/normal/7/3/5/1/541537_4eef4.gif
 https://i.pinimg.com/originals/ee/17/cb/ee17cb01b02bde608e84dcac1595f860.gif
 https://i.pinimg.com/originals/31/bd/da/31bdda3a24e488e603959ec8f864c0cd.gif*/
->>>>>>> 6b3d79a0304ee7bd2988f668da316a6222646d00
 .second-nav {
     background-image: url("https://i.pinimg.com/originals/ee/17/cb/ee17cb01b02bde608e84dcac1595f860.gif");
     color: white;
@@ -44,26 +40,6 @@ https://i.pinimg.com/originals/31/bd/da/31bdda3a24e488e603959ec8f864c0cd.gif*/
     justify-content: center;
     padding: 5px 0;
 }
-<<<<<<< HEAD
-nav{
-    background-color: black; 
-}
-.navbar{
-    font-weight: bold;
-}
-.navbar:hover{
-    font-weight: bolder;
-    color:rgb(32, 32, 248);
-}
-.titulo-primer-baner{
-    
-}
-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Dividir el container en dos columnas */
-    gap: 20px; /* Espacio entre las columnas */
-    padding: 40px;
-=======
 
 /*carousel de videos*/
 #carouselExampleDark {
@@ -71,7 +47,6 @@ container{
     height: 80vh; /* Establece la altura deseada del carrusel */
     margin: 10px auto; /* Centra el carrusel en el medio */
     
->>>>>>> 6b3d79a0304ee7bd2988f668da316a6222646d00
 }
 
 /* Estilos para los iframes de video */
@@ -82,11 +57,6 @@ container{
 
 
 
-<<<<<<< HEAD
-iframe {
-    width: 100%;
-    height: 400px;
-=======
 
 .logo {
     display: flex; /* Para alinear el logo y el texto verticalmente*/ 
@@ -103,7 +73,6 @@ iframe {
 .logo h1 {
     margin: 0;
     margin-left: 10px; /* Espacio entre la imagen y el texto del logo */
->>>>>>> 6b3d79a0304ee7bd2988f668da316a6222646d00
 }
 .container1 {
     width: 100%;
