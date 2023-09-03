@@ -46,6 +46,7 @@ https://i.pinimg.com/originals/31/bd/da/31bdda3a24e488e603959ec8f864c0cd.gif*/
     display: flex;
     justify-content: center;
     padding: 5px 0;
+    letter-spacing: 15px;
 }
 
 /*carousel de videos*/
@@ -121,17 +122,24 @@ https://i.pinimg.com/originals/31/bd/da/31bdda3a24e488e603959ec8f864c0cd.gif*/
     width: 300px;
     height: 250px;
     margin: 10px;
-    background-color: #f0f0f0;
+    background-color: #0f2975;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);clear: right; /* Evita que otros elementos floten junto a las tarjetas */
-}
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: -1px -1px 6px 0 rgb(36, 220, 234), 8px 8px 26px 6px rgb(86, 163, 245);}
+
+
 
 /* Estilos para el texto en las tarjetas */
 .video-card2 p {
     margin-top: 10px;
     font-size: 18px;
-    color: black; /* Cambia el color del texto a tu elección */
+    color: white;
+}
+span{
+    
+    font-weight: bold;
+    font-size: 30px;
 }
 
 /* Estilos adicionales según tu preferencia */
@@ -142,6 +150,17 @@ https://i.pinimg.com/originals/31/bd/da/31bdda3a24e488e603959ec8f864c0cd.gif*/
     gap: 20px; /* Espacio entre las columnas */
     padding: 40px;
     margin: 20px auto;
+}
+
+#accordionFlushExample{
+    border-color: #1843c1;
+    border-width: 5px;
+    border-style: dashed;
+}
+.accordion-item{
+    border-color: #1843c1;
+    border-width: 5px;
+    border-style: dotted;
 }
 
   /************************************************/
