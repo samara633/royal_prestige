@@ -3,33 +3,6 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;    
 }
-header {
-    background-color: black;
-    color: white;
-    color: white;
-    padding: 10px 20px; /* Agregado padding horizontal */
-    display: flex; /* Usar flexbox para alinear elementos */
-}
-h1 {
-    margin: 0; /* Eliminar margen por defecto */
-}
-nav {
-    background-color: black;
-    color: white;
-    display: flex;
-    width: 70%;
-    align-items: center;
-    padding: 10px 0;
-    justify-content:flex-end; /* Alinear elementos al espacio entre ellos */
-}
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-}
-nav a:hover {
-    color: blue; /* Cambio de color al pasar el cursor */
-}
 
 .second-nav {
     background-image: url("https://img1.picmix.com/output/stamp/original/7/3/5/1/541537_5b20a.gif");
@@ -38,7 +11,19 @@ nav a:hover {
     justify-content: center;
     padding: 5px 0;
 }
-
+nav{
+    background-color: black; 
+}
+.navbar{
+    font-weight: bold;
+}
+.navbar:hover{
+    font-weight: bolder;
+    color:rgb(32, 32, 248);
+}
+.titulo-primer-baner{
+    
+}
 container{
     display: grid;
     grid-template-columns: 1fr 1fr; /* Dividir el container en dos columnas */
@@ -65,22 +50,6 @@ section p {
 iframe {
     width: 100%;
     height: 400px;
-}
-.logo {
-    display: flex; /* Para alinear el logo y el texto verticalmente*/ 
-    align-items: flex-start;/*Alineación del logo en la parte superior*/
-}
-.logo {
-    display: flex; /* Para alinear el logo y el texto verticalmente */
-    align-items: flex-start; /* Alineación del logo en la parte superior */
-}
-.logo img {
-    width: 20%;
-    height: auto;
-}
-.logo h1 {
-    margin: 0;
-    margin-left: 10px; /* Espacio entre la imagen y el texto del logo */
 }
 .container1 {
     width: 100%;
