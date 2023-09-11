@@ -231,7 +231,12 @@ footer {
     background-color: #2980b9;
   }
 
-
+  @media (max-width: 768px) {
+    .accordion-button {
+        font-size: 16px;
+        /* Otros estilos específicos para pantallas pequeñas */
+    }
+}
   
 
 
