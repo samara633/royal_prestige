@@ -162,7 +162,6 @@ https://i.pinimg.com/originals/31/bd/da/31bdda3a24e488e603959ec8f864c0cd.gif*/
     color: white;
 }
 span{
-    
     font-weight: bold;
     font-size: 30px;
 }
@@ -171,13 +170,21 @@ span{
     border-color: #1843c1;
     border-width: 0.5px;
     border-style: dashed;
+    font-family: "Georgia", serif; /* Cambiar a la fuente deseada */
+    font-size: 118%; /* Cambiar al tamaño deseado */
+    font-weight: bold;
+}
+#accordionFlushfont{
+    font-family: "Georgia", serif; /* Cambiar a la fuente deseada */
+    font-size: 50%; /* Cambiar al tamaño deseado */
+    font-weight: bold;
 }
 .accordion-item{
     border-color: #1843c1;
     border-width: 1px;
     border-style: dotted;
+    
 }
-
   /************************************************/
 footer {
     background-color: #000;
@@ -186,11 +193,9 @@ footer {
     text-align: center;
     margin-top: 0;
   }
-
   .social-icons {
     margin-top: 10px;
   }
-
   .social-icon {
     display: inline-block;
     margin: 0 10px;
@@ -202,20 +207,17 @@ footer {
     width: 32px;
     height: 32px;
   }
-
   .email-form {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-
   .email-input {
     padding: 8px;
     border: none;
     border-radius: 4px;
   }
-
   .register-button {
     padding: 8px 20px;
     margin-left: 10px;
@@ -225,7 +227,6 @@ footer {
     color: white;
     cursor: pointer;
   }
-
   .register-button:hover {
     background-color: #2980b9;
   }
